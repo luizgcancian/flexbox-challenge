@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.first-half {
+  width: 40%;
+}
+
+.super-container {
+  background: #f3eed9;
+  min-height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1128px;
+}
+
+.intro-text {
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+.intro-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3.75rem;
+  color: #824936;
+}
+
+.second-section {
+  margin-top: 4em;
+  margin-bottom: 6em;
+}
+
+.second-section-title {
+  text-align: center;
+  margin-bottom: 2em;
+  color: #824936;
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+}
+
+.second-section-wrapper {
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+.second-section-block-text {
+  font-weight: 400;
+  font-size: 1.3125rem;
+}
+
+.third-section {
+  background: #222c2a;
+  padding: 4em 0;
+}
+
+.third-section-wrapper {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+.third-section-title {
+  margin-bottom: 1em;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+}
+
+.third-section-text {
+  font-weight: 400;
+  font-size: 1.3125rem;
+  color: #ffffff;
+}
+
+.fourth-section {
+  background: #222c2a;
+  padding: 4em 0;
+  background: #824936;
+}
